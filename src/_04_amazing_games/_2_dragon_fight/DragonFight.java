@@ -43,9 +43,9 @@ public class DragonFight {
 		 dragonHealth -=playerAttack;
 		 JOptionPane.showMessageDialog(null, "the dragon lost " +playerAttack+ " health! Great job! He now has " +dragonHealth+ " health.");
 	}
-	int run = ran.nextInt(4);
-	if(run==1) {
-		JOptionPane.showMessageDialog(null, "You ran away. you didn't get any treasure though" );
+
+	if(answer.equalsIgnoreCase("run")) {
+		JOptionPane.showMessageDialog(null, "You ran away safely. But you left all of your " );
 	}
 					// -- Find a random number between 0 and 10 and store it in playerAttack. Use
 					
